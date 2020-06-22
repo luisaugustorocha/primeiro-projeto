@@ -1,0 +1,162 @@
+* {
+    font-family: Arial;
+}
+body {
+    /* Remove todos as margens em branco da página. */
+    margin: 0;
+    padding: 0;
+}
+.topo_pagina {
+    /* Altura da div. */
+    height: 50px;
+    /* Cor de fundo do cabeçalho. */
+    background-color: #353535;
+}
+.topo_interno {
+    /* Largura do objeto */
+    width: 1000px;
+    /* Centraliza a DIV. */
+    margin: auto;
+    color: white;
+}
+.logomarca {
+    /* Alinhado na parte esquerda da página. */
+    float: left;
+    /* Define o tamanho da fonte. */
+    font-size: 24px;
+    /* Alinha o texto verticalmente no tamanho na div. */
+    line-height: 50px;
+}
+.topo_menu {
+    /* Alinhado na parte direita da página. */
+    float: right;
+}
+.topo_menu ul, .topo_menu li {
+    /* Remove todos as margens (extenas e internas do menu). */
+    margin: 0;
+    padding: 0;
+    /* Remove os marcadores da lista. */
+    list-style: none;
+}
+.topo_menu li {
+    /* Alinha os itens do menu a esquerda. */
+    float: left;
+    /* Define o espaçamento da margem interna do lado esquerdo. */
+    padding-left: 10px;
+    /* Define o espaçamento da margem interna do lado direito  . */
+    padding-right: 10px;
+    /* Alinha o texto verticalmente no tamanho na div. */
+    line-height: 50px;
+    /* Define o tamanho da fonte. */
+    font-size: 14px;
+    /* Define cursor de link ao posicionar o mouse sobre o menu. */
+    cursor: pointer;
+}
+/* Define ações ao posicionar o mouse sobre o elemento. */
+
+.topo_menu li:hover {
+    /* Define cor de fundo ao passar mouse sobre o objeto. */
+    background-color: #3480c1;
+}
+.banner {
+    /* Altura da div. */
+    height: 300px;
+    /* Define a cor de fundo do objeto. */
+    background-color: #347aba;
+}
+.banner_interno {
+    /* Largura do objeto */
+    width: 1000px;
+    /* Centraliza a DIV. */
+    margin: auto;
+}
+.banner_texto {
+    /* Alinha os itens da div a esquerda. */
+    float: left;
+}
+.banner_imagem {
+    /* Alinha os itens da div a direita. */
+    float: right;
+}
+.banner_imagem img {
+    /* Define a margem do lado direito. */
+    margin-right: 55px;
+}
+.frase1 {
+    /* Define o tamanho da fonte. */
+    font-size: 48px;
+    /* Deixa o texto em negrito. */
+    font-weight: bold;
+    /* Define a cor da fonte. */
+    color: #FFFFFF;
+    /* Define a margem superior do elemento. */
+    margin-top: 60px;
+}
+.frase2 {
+    /* Define o tamanho da fonte. */
+    font-size: 20px;
+    /* Define a cor da fonte. */
+    color: #FFFFFF;
+    /* Deixa o texto em negrito. */
+    font-weight: bold;
+}
+.botao {
+    /* Define a cor de fundo do objeto. */
+    background-color: #FFC001;
+    /* Define a altura do objeto. */
+    height: 56px;
+    /* Define a largura do objeto. */
+    width: 282px;
+    /* Define o tamanho da fonte. */
+    font-size: 20px;
+    /* Deixa o texto em negrito. */
+    font-weight: bold;
+    /* Define o alinhamento horizontal. */
+    text-align: center;
+    /* Define o alinhamento vertical. */
+    line-height: 56px;
+    /* Define a margem superior do elemento. */
+    margin-top: 20px;
+    /* Define cursor de link ao posicionar o mouse sobre o botão. */
+    cursor: pointer;
+    /* Define o arredondamento nas bordas. */
+    border-radius: 5px;
+}
+.conteudo_interno {
+    /* Largura do objeto */
+    width: 1000px;
+    /* Centraliza a DIV. */
+    margin: auto;
+}
+.produtos {
+    /* Define a altura do objeto. */
+    height: 90px;
+    /* Define o tamanho da fonte. */
+    font-size: 20px;
+    /* Define o alinhamento horizontal. */
+    text-align: center;
+    /* Define o alinhamento vertical. */
+    line-height: 90px;
+}
+.fotos img {
+    /* Define a margem do lado esquerdo. */
+    margin-left: 10px;
+    /* Define a margem do lado direito. */
+    margin-right: 10px;
+}
+.rodape {
+    /* Altura da div. */
+    height: 50px;
+    /* Cor de fundo do menu. */
+    background-color: #347aba;
+    /* Define o alinhamento horizontal do texto. */
+    text-align: center;
+    /* Define o alinhamento vertical do texto. */
+    line-height: 50px;
+    /* Define a cor da fonte do texto. */
+    color: #FFFFFF;
+    /* Define uma margem superior a div. */
+    margin-top: 40px;
+    /* Define o estilo negrito ao texto. */
+    font-weight: bold;
+}
